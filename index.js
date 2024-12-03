@@ -73,10 +73,10 @@ function init() {
         console.log('Generating README...'); 
         const markdownContent = generateMarkdown(answers);
 
-        fs.writeFile('README.md', markdownContent, (err) =>
+        fs.writeFile('ExampleREADME.md', markdownContent, (err) =>
         err 
         ? console.error(colors.red('Error while writing file.', err))
-        : console.log('Success! README.md generated.')
+        : console.log('Success! ExampleREADME.md generated.')
         );
 
     }).catch((error) => {
