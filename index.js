@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import fs from "fs";
 
-//internal
+//internal modules
 import generateMarkdown from "./utils/generateMarkdown.js";
 
 // TODO: Create an array of questions for user input
