@@ -19,6 +19,8 @@ To generate your own README, clone the repository to your local machine so that 
 ## Usage
 When you run node index.js, the application prompts you in the command line with a series of questions about your GitHub and project.Based on your responses to the Inquirer prompts, the application generates markdown and a table of contents for the README. If you don’t answer the optional questions, such as Installation, an Installation section won’t be included in your README. The README will also include badges for your GitHub repo.Finally, fs.writeFile generates your project’s README.md file. Check out the ExampleREADME.md in this repo for an example of the final output.
 
+Here's an instructional video that you can watch; https://drive.google.com/file/d/1D3_VYBotvUBIp4uOa4bsUhUUWfqSVSwt/view
+
 ## License
 License: https://opensource.org/licenses/MIT
 
